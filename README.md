@@ -23,3 +23,44 @@ Here is a list of the modules included with this preset:
 
 ![Screenshot](screenshots/fastfetch-login-preset.png)
 
+# Install
+
+1. Clone the Github repository:
+
+    ```Bash
+    wget https://github.com/benhaube/fastfetch-login-preset.git
+    ```
+
+2. Backup your `.bashrc` file in case you make a mistake:
+
+    ```Bash
+    cp .bashrc .bashrc.bkp
+    ```
+
+3. Enter the project directory:
+
+    ```Bash
+    cd fastfetch-login-preset/
+    ```
+
+4. Copy the file `login.jsonc` to the `/usr/share/fastfetch/presets/` directory and confirm fastfetch can see the preset:
+
+    ```Bash
+    sudo cp login.jsonc /usr/share/fastfetch/presets/
+    fastfetch --list-presets
+    ```
+5. Go back to your `/home/user/` directory and edit the `.bashrc` file to add the `fastfetch` command:
+
+    ```Bash
+    cd
+    nano .bashrc
+    ```
+6. Add the following to the end of your `.bashrc` file:
+
+    ```Bash
+    # Run the fastfetch command with the login.jsonc profile at login to show relavant system information
+    fastfetch -c login
+    ```
+7. `Ctrl+O` and `Enter` to save the changes and `Ctrl+X` to close the file
+
+Now you should be able to open a new terminal window or tab and see the `fastfetch` command run with the `login.jsonc` profile before you get your terminal prompt. 
