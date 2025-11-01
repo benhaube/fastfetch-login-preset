@@ -12,13 +12,18 @@ Here is a list of the modules included with this preset:
 + datetime (MMM dd, yyyy: hh:mm:ss timezone)
 + loadavg (1m, 5m, 15m)
 + processes
++ break
 + OS
 + kernel
 + uptime
 + packages
++ break
++ poweradapter *login-mobile only*
++ battery ({bar}{num}: {status} - {manufacturer} - {technology} - {cycles}) *login-mobile only*
 + memory ({bar}{num}: {used} / {total})
 + swap ({bar}{num}: {used} / {total})
 + drives ({bar}{num}: {used} / {total} - {filesystem})
++ break
 + wifi ({bar}{num}: {SSID} - {frequency} {channel} - {encryption} - {Rx} {Tx})
 + localip ({device} - {IPv4} - {IPv6} - {MAC})
 + publicip ({IPv4} {location})
