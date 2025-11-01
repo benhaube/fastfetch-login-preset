@@ -18,8 +18,8 @@ Here is a list of the modules included with this preset:
 + uptime
 + packages
 + break
-+ poweradapter *login-mobile only*
-+ battery ({bar}{num}: {status} - {manufacturer} - {technology} - {cycles}) *login-mobile only*
++ poweradapter *(login-mobile only)*
++ battery ({bar}{num}: {status} - {manufacturer} - {technology} - {cycles}) *(login-mobile only)*
 + memory ({bar}{num}: {used} / {total})
 + swap ({bar}{num}: {used} / {total})
 + drives ({bar}{num}: {used} / {total} - {filesystem})
