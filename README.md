@@ -1,6 +1,7 @@
 # Fastfetch Login Preset
 
 ![Screenshot](screenshots/fastfetch-login-preset.png)
+![Screenshot Server](screenshots/fastfetch-server-login.png)
 
 This is a preset for fastfetch that is intended to run on login when you open a terminal, or login to your server over SSH. It shows relavant system information and an ASCII logo of your operating system. 
 
