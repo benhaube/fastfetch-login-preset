@@ -62,7 +62,7 @@
     },
     {
       "type": "disk",
-      "format": "{13}{3}: {1} / {2} - {9}"
+      "format": "{13}{3}: {10} - {1} / {2} - {9}"
     },
     "break",
     {
@@ -80,7 +80,10 @@
       "type": "publicip",
       "timeout": 1000
     },
-    "dns",
+    {
+      "type": "dns",
+      "showType": "both"
+    },
     "netio"
   ]
 }
