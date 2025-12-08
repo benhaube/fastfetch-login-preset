@@ -8,7 +8,7 @@ This is a preset for fastfetch that is intended to run on login when you open a 
 
 Here is a list of the modules included with this preset:
 
-+ title (user@hostname)
++ title (user@hostname) 
 + datetime (MMM dd, yyyy: hh:mm:ss timezone)
 + loadavg (1m, 5m, 15m)
 + processes
@@ -18,13 +18,13 @@ Here is a list of the modules included with this preset:
 + uptime
 + packages
 + break
-+ poweradapter *(login-mobile only)*
-+ battery ({bar}{num}: {status} - {manufacturer} - {technology} - {cycles}) *(login-mobile only)*
++ poweradapter ---- ⚠️ ***[login-mobile.jsonc](https://github.com/benhaube/fastfetch-login-preset/blob/master/login-mobile.jsonc) only***
++ battery ({bar}{num}: {status} - {manufacturer} - {technology} - {cycles}) ---- ⚠️ ***[login-mobile.jsonc](https://github.com/benhaube/fastfetch-login-preset/blob/master/login-mobile.jsonc) only***
 + memory ({bar}{num}: {used} / {total})
 + swap ({bar}{num}: {used} / {total})
 + drives ({bar}{num}: {used} / {total} - {filesystem})
 + break
-+ wifi ({bar}{num}: {SSID} - {frequency} {channel} - {encryption} - {Rx} {Tx})
++ wifi ({bar}{num}: {SSID} - {frequency} {channel} - {encryption} - {Rx} {Tx}) ---- ❌ ***not included with [login-no-wifi.jsonc](https://github.com/benhaube/fastfetch-login-preset/blob/master/login-no-wifi.jsonc)***
 + localip ({device} - {IPv4} - {IPv6} - {MAC})
 + publicip ({IPv4} {location})
 + dns ({IPv4} {IPv6})
