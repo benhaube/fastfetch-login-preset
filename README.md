@@ -4,7 +4,7 @@ This is a preset for fastfetch that is intended to run on login when you open a 
 
 ***This preset requires a [Nerd Font](https://www.nerdfonts.com/) to be installed and set in your terminal to properly display the icons.***
 
-***If you are using a mobile device (such as a laptop) you can use the*** `login-mobile.jsonc` ***preset instead to show power adaptor and battery information.***
+***If you are using a mobile device (such as a laptop) you can use the*** `login-mobile.jsonc` ***preset instead to show power adaptor and battery information.*** </br>
 ***If your computer does not have an active Wi-Fi connection you can use the*** `login-no-wifi.jsonc` ***preset.***
 
 Here is a list of the modules included with this preset:
