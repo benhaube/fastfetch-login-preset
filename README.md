@@ -51,7 +51,7 @@ Here is a list of the modules included with this preset:
 1. Clone the Github repository:
 
     ```Bash
-    wget https://github.com/benhaube/fastfetch-login-preset.git
+    git clone https://github.com/benhaube/fastfetch-login-preset.git
     ```
 2. Install `fastfetch` if you have not already:
 
