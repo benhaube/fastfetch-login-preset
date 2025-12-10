@@ -40,7 +40,10 @@
     "processes",
     "break",
     "os",
-    "kernel",
+    {
+      "type": "kernel",
+      "format": "{2}"
+    },
     "uptime",
     "packages",
     "break",
@@ -63,7 +66,7 @@
       "showIpv6": true,
       "showMac": true,
       // "showSpeed": true,
-      "format": "{4} - IPv4:{1} - IPv6:{2} - MAC:{3}"
+      "format": "{4} - IPv4[{1}] IPv6[{2}] MAC[{3}]"
     },
     {
       "type": "publicip",
