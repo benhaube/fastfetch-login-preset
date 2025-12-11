@@ -40,7 +40,10 @@
     "processes",
     "break",
     "os",
-    "kernel",
+    {
+      "type": "kernel",
+      "format": "{2}"
+    },
     "uptime",
     "packages",
     "break",
@@ -67,6 +70,10 @@
     "break",
     {
       "type": "wifi",
+      "format": "{1} - {2}"
+    },
+    {
+      "type": "wifi",
       "format": "{11}{7}: {4} - {13}GHz Ch:{12} - {10} - Rx:{8} Tx:{9}"
     },
     {
@@ -74,7 +81,7 @@
       "key": "Local IP",
       "showIpv6": true,
       "showMac": true,
-      "format": "{4} - IPv4:{1} - IPv6:{2} - MAC:{3}"
+      "format": "{4} - IPv4[{1}] IPv6[{2}] MAC[{3}]"
     },
     {
       "type": "publicip",
