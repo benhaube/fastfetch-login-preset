@@ -48,6 +48,14 @@
     "packages",
     "break",
     {
+      "type":"poweradapter",
+      "format": "{5} - Watts: {1}"
+    },
+    {
+      "type": "battery",
+      "format": "{10}{4}: {5} - {1} - {3} - Cycles: {7}"
+    },
+    {
       "type": "memory",
       "format": "{4}{3}: {1} / {2}"
     },
@@ -61,16 +69,22 @@
     },
     "break",
     {
+      "type": "wifi",
+      "format": "{1} - {2}"
+    },
+    {
+      "type": "wifi",
+      "format": "{11}{7}: {4} - {13}GHz Ch:{12} - {10} - Rx:{8} Tx:{9}"
+    },
+    {
       "type": "localip",
       "key": "Local IP",
-      "showIpv6": true,
+      // "showIpv6": true,
       "showMac": true,
-      // "showSpeed": true,
-      "format": "{4} - IPv4[{1}] IPv6[{2}] MAC[{3}]"
+      "format": "{4} - IPv4[{1}] MAC[{3}]"
     },
     {
       "type": "publicip",
-      // "showAllIps": true,
       "timeout": 1000
     },
     {
