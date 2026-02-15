@@ -27,7 +27,7 @@ Here is a list of the modules included with this preset:
 + drives *[ {bar}{num}: {used} / {total} - {filesystem} ]*
 + break
 + wifi *[ {bar}{num}: {SSID} - {frequency} {channel} - {encryption} - {Rx} {Tx} ]* ---- ❌ ***not included with [login-no-wifi.jsonc](https://github.com/benhaube/fastfetch-login-preset/blob/master/login-no-wifi.jsonc)***
-+ localip *[ {device} - {IPv4} - {IPv6} - {MAC} ]*
++ localip *[ {device} {speed} - {IPv4} - {IPv6} - {MAC} ]*
 + publicip *[ {IPv4} {location} ]*
 + dns *[ {IPv4} {IPv6} ]*
 + netio *[ {IN} - {OUT} ]*
