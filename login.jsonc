@@ -73,8 +73,8 @@
       "key": "Local IP",
       "showIpv6": true,
       "showMac": true,
-      // "showSpeed": true,
-      "format": "{4} - IPv4[{1}] IPv6[{2}] MAC[{3}]"
+      "showSpeed": true,
+      "format": "{4} {7} - IPv4[{1}] IPv6[{2}] MAC[{3}]"
     },
     {
       "type": "publicip",
