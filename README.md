@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/icons/terminal.png" alt="Project logo">
+    <img src="assets/icons/terminal.png" alt="Project logo" width="400">
 <p>
 </p>
 <h1 align="center">
@@ -7,7 +7,7 @@
 </h1>
 </p>
 
-## About
+### About
 
 This is a preset for fastfetch that is intended to run on login when you open a terminal, or login to your server over SSH. It shows relavant system information and an ASCII logo of your operating system. 
 
@@ -41,21 +41,21 @@ Here is a list of the modules included with this preset:
 + dns *[ {IPv4} {IPv6} ]*
 + netio *[ {IN} - {OUT} ]*
 
-## Screenshots
+### Screenshots
 
-### Desktop:
+#### Desktop:
 
 ![Screenshot Desktop](assets/screenshots/fastfetch-login-preset.png)
 
-### Server:
+#### Server:
 
 ![Screenshot Server](assets/screenshots/fastfetch-server-login.png)
 
-### Mobile:
+#### Mobile:
 
 ![Screenshot Mobile](assets/screenshots/fastfetch-login-mobile-screenshot.png)
 
-## Install
+### Install
 
 1. Clone the Github repository:
 
