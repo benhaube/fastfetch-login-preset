@@ -1,4 +1,13 @@
-# Fastfetch Login Preset
+<p align="center">
+    <img src="assets/icons/terminal.png" alt="Project logo">
+<p>
+</p>
+<h1 align="center">
+    Fastfetch Login Preset
+</h1>
+</p>
+
+## About
 
 This is a preset for fastfetch that is intended to run on login when you open a terminal, or login to your server over SSH. It shows relavant system information and an ASCII logo of your operating system. 
 
@@ -32,21 +41,21 @@ Here is a list of the modules included with this preset:
 + dns *[ {IPv4} {IPv6} ]*
 + netio *[ {IN} - {OUT} ]*
 
-# Screenshots
+## Screenshots
 
 ### Desktop:
 
-![Screenshot Desktop](screenshots/fastfetch-login-preset.png)
+![Screenshot Desktop](assets/screenshots/fastfetch-login-preset.png)
 
 ### Server:
 
-![Screenshot Server](screenshots/fastfetch-server-login.png)
+![Screenshot Server](assets/screenshots/fastfetch-server-login.png)
 
 ### Mobile:
 
-![Screenshot Mobile](screenshots/fastfetch-login-mobile-screenshot.png)
+![Screenshot Mobile](assets/screenshots/fastfetch-login-mobile-screenshot.png)
 
-# Install
+## Install
 
 1. Clone the Github repository:
 
