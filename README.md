@@ -29,13 +29,13 @@ Here is a list of the modules included with this preset:
 + uptime
 + packages
 + break
-+ poweradapter ---- ⚠️ ***[login-mobile.jsonc](https://github.com/benhaube/fastfetch-login-preset/blob/master/login-mobile.jsonc) only***
-+ battery *[ {bar}{num}: {status} - {manufacturer} - {technology} - {cycles} ]* ---- ⚠️ ***[login-mobile.jsonc](https://github.com/benhaube/fastfetch-login-preset/blob/master/login-mobile.jsonc) only***
++ poweradapter &mdash; ⚠️ ***[login-mobile.jsonc](https://github.com/benhaube/fastfetch-login-preset/blob/master/login-mobile.jsonc) only***
++ battery *[ {bar}{num}: {status} - {manufacturer} - {technology} - {cycles} ]* &mdash; ⚠️ ***[login-mobile.jsonc](https://github.com/benhaube/fastfetch-login-preset/blob/master/login-mobile.jsonc) only***
 + memory *[ {bar}{num}: {used} / {total} ]*
 + swap *[ {bar}{num}: {used} / {total} ]*
 + drives *[ {bar}{num}: {used} / {total} - {filesystem} ]*
 + break
-+ wifi *[ {bar}{num}: {SSID} - {frequency} {channel} - {encryption} - {Rx} {Tx} ]* ---- ❌ ***not included with [login-no-wifi.jsonc](https://github.com/benhaube/fastfetch-login-preset/blob/master/login-no-wifi.jsonc)***
++ wifi *[ {bar}{num}: {SSID} - {frequency} {channel} - {encryption} - {Rx} {Tx} ]* &mdash; ❌ ***not included with [login-no-wifi.jsonc](https://github.com/benhaube/fastfetch-login-preset/blob/master/login-no-wifi.jsonc)***
 + localip *[ {device} ({speed}) - {IPv4} - {IPv6} - {MAC} ]*
 + publicip *[ {IPv4} {location} ]*
 + dns *[ {IPv4} {IPv6} ]*
