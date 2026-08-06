@@ -1,7 +1,7 @@
 <p align="center">
-    <img src="assets/icons/terminal.png" alt="Project logo" width="400">
-<p>
+    <img src="assets/icons/square-terminal.png" alt="Project logo">
 </p>
+<p>
 <h1 align="center">
     Fastfetch Login Preset
 </h1>
