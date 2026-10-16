@@ -65,7 +65,7 @@
     },
     {
       "type": "disk",
-      "format": "{13}{3}: {20} - {1} / {2} - {9}",
+      "format": "{13}{3}: {1} / {2} - {20} - {9}",
       "folders": "/media/nvme0n1p1:/media/Quick-Storage"
     },
     "break",
