@@ -9,51 +9,21 @@
 
 ### About
 
-This is a preset for fastfetch that is intended to run on login when you open a terminal, or login to your server over SSH. It shows relavant system information and an ASCII logo of your operating system. 
+This is a preset for Fastfetch that is intended to run on login when you open a terminal, or login to your server over SSH. It shows relevant system information and an ASCII logo of your operating system. 
 
-***This preset requires a [Nerd Font](https://www.nerdfonts.com/) to be installed and set in your terminal to properly display the icons.***
+*This preset requires a [Nerd Font](https://www.nerdfonts.com/) to be installed and set in your terminal to properly display the icons.*
 
-***If you are using a mobile device (such as a laptop) you can use the*** `login-mobile.jsonc` ***preset instead to show power adaptor and battery information.***
+*If you are using a mobile device (such as a laptop) you can use the `login-mobile.jsonc` preset instead to show power adaptor and battery information.*
 
-***If your computer does not have an active Wi-Fi connection you can use the*** `login-no-wifi.jsonc` ***preset.***
-
-Here is a list of the modules included with this preset:
-
-+ title (user@hostname) 
-+ datetime (MMM dd, yyyy: hh:mm:ss timezone)
-+ loadavg (1m, 5m, 15m)
-+ processes
-+ break
-+ OS
-+ kernel
-+ uptime
-+ packages
-+ break
-+ poweradapter &mdash; ⚠️ ***[login-mobile.jsonc](https://github.com/benhaube/fastfetch-login-preset/blob/master/login-mobile.jsonc) only***
-+ battery *[ {bar}{num}: {status} - {manufacturer} - {technology} - {cycles} ]* &mdash; ⚠️ ***[login-mobile.jsonc](https://github.com/benhaube/fastfetch-login-preset/blob/master/login-mobile.jsonc) only***
-+ memory *[ {bar}{num}: {used} / {total} ]*
-+ swap *[ {bar}{num}: {used} / {total} ]*
-+ drives *[ {bar}{num}: {used} / {total} - {filesystem} ]*
-+ break
-+ wifi *[ {bar}{num}: {SSID} - {frequency} {channel} - {encryption} - {Rx} {Tx} ]* &mdash; ❌ ***not included with [login-no-wifi.jsonc](https://github.com/benhaube/fastfetch-login-preset/blob/master/login-no-wifi.jsonc)***
-+ localip *[ {device} ({speed}) - {IPv4} - {IPv6} - {MAC} ]*
-+ publicip *[ {IPv4} {location} ]*
-+ dns *[ {IPv4} {IPv6} ]*
-+ netio *[ {IN} - {OUT} ]*
+*If your computer does not have an active Wi-Fi connection you can use the `login-no-wifi.jsonc` preset.*
 
 ### Screenshots
 
-#### Desktop:
-
-![Screenshot Desktop](assets/screenshots/fastfetch-login-preset.png)
-
-#### Server:
-
-![Screenshot Server](assets/screenshots/fastfetch-server-login.png)
-
-#### Mobile:
-
-![Screenshot Mobile](assets/screenshots/fastfetch-login-mobile-screenshot.png)
+<p align=center>
+    <img src="assets/screenshots/fastfetch-login.png" alt="Screenshot of the fastfetch login preset" width="500">
+    <img src="assets/screenshots/fastfetch-login-mobile.png" alt="Screenshot of the fastfetch login mobile preset" width="500">
+    <img src="assets/screenshots/fastfetch-login-zimaos.png" alt="Screenshot of the fastfetch login zimaos preset" width="500">
+</p>
 
 ### Install
 
