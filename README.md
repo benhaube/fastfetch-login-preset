@@ -26,6 +26,7 @@ This is a preset for Fastfetch that is intended to run on login when you open a 
     <img src="assets/screenshots/fastfetch-login.png" alt="Screenshot of the fastfetch login preset" width="800">
     <img src="assets/screenshots/fastfetch-login-mobile.png" alt="Screenshot of the fastfetch login mobile preset" width="800">
     <img src="assets/screenshots/fastfetch-login-zimaos.png" alt="Screenshot of the fastfetch login zimaos preset" width="800">
+    <img src="assets/screenshots/fastfetch-login-zimaos-large.png" alt="Screenshot of the fastfetch login zimaos preset with large ASCII logo" width="800">
 </p>
 
 ### Install
