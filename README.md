@@ -11,11 +11,14 @@
 
 This is a preset for Fastfetch that is intended to run on login when you open a terminal, or login to your server over SSH. It shows relevant system information and an ASCII logo of your operating system. 
 
-*This preset requires a [Nerd Font](https://www.nerdfonts.com/) to be installed and set in your terminal to properly display the icons.*
-
-*If you are using a mobile device (such as a laptop) you can use the `login-mobile.jsonc` preset instead to show power adaptor and battery information.*
-
-*If your computer does not have an active Wi-Fi connection you can use the `login-no-wifi.jsonc` preset.*
+> [!note]
+> *You can change the colors of the presets to match your distribution. Currently, they are cyan to match fedora.*
+> 
+> *This preset requires a [Nerd Font](https://www.nerdfonts.com/) to be installed and set in your terminal to properly display the icons.*
+> 
+> *If you are using a mobile device (such as a laptop) you can use the `login-mobile.jsonc` preset instead to show power adaptor and battery information.*
+> 
+> *If your computer does not have an active Wi-Fi connection you can use the `login-no-wifi.jsonc` preset.*
 
 ### Screenshots
 
