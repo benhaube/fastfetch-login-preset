@@ -4,30 +4,30 @@
     "type": "file",
     "source": "/opt/share/fastfetch/logos/zimaos-large.txt",
     "color": {
-        "1": "#b58900",
-        "2": "white"
+      "1": "#b58900",
+      "2": "white"
     }
   },
   "display": {
     "bar": {
-      "width": 10                     // Width of percentage bars
+      "width": 10 // Width of percentage bars
     },
     "percent": {
-      "type": 3,                       // 1=number, 2=bar, 3=both, 9=colored number
-       "color": {
-         "green": "green",
-         "yellow": "light_yellow",
-         "red": "light_red"
+      "type": 3, // 1=number, 2=bar, 3=both, 9=colored number
+      "color": {
+        "green": "green",
+        "yellow": "light_yellow",
+        "red": "light_red"
       }
     },
     "key": {
-      "type": "icon",                  // string, icon, both, or none
-      "width": 5                       // Aligns keys to this width
+      "type": "icon", // string, icon, both, or none
+      "width": 5 // Aligns keys to this width
     },
-    "separator": " ↪",                 // Separator between keys and values
+    "separator": " ↪", // Separator between keys and values
     "color": {
       "separator": "#b58900",
-      "title": "#b58900",
+      "title": "white",
       "keys": "white"
     }
   },
@@ -39,12 +39,12 @@
       "format": "{month-name-short} {day-pretty}, {year}: {hour-pretty}:{minute-pretty}:{second-pretty} {timezone-name}",
       "outputColor": "#b58900"
     },
-    { 
+    {
       "key": " ",
       "type": "custom",
       "format": "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
     },
-   "loadavg",
+    "loadavg",
     "processes",
     "break",
     "os",
