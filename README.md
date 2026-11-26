@@ -1,10 +1,17 @@
 <p align="center">
     <img src="assets/icons/square-terminal.png" alt="Project logo">
 </p>
+
 <p>
-<h1 align="center">
-    Fastfetch Login Preset
-</h1>
+    <h1 align="center">
+        Fastfetch Login Preset
+    </h1>
+</p>
+
+<p align="center">
+    <a href="#install">Install Presets</a>
+    ·
+    <a href="#zimaos">ZimaOS Setup</a>
 </p>
 
 ### About
@@ -88,7 +95,9 @@ Now you should be able to open a new terminal window or tab and see the `fastfet
 
 #### Install Fastfetch with Script (`x86_64` only)
 
-I have finished writing and testing the bash script for installing and updating Fastfetch that I promised. The script checks with the GitHub API to find the version number for the latest version of Fastfetch, then compares it to the currently installed version _(if necessary)_. If no update is available, then it stops and prints a message saying Fastfetch is already up to date. If there is a new version available, the script will create a temporary directory, download the latest `fastfetch-linux-amd64.tar.gz` archive, unpack it, and finally copy the contents into the `/opt/bin` and `opt/share` directories. Currently, the script only works for the `x86_64` architecture, but I may add an option flag to download the ARM version in the future if people want it. The script automates the entire process of installing Fastfetch, but you will still need to manually add the `/opt/bin` directory as a path in your `.bashrc`.
+I have finished writing and testing the bash script for installing and updating Fastfetch that I promised. The script checks with the GitHub API to find the version number for the latest version of Fastfetch, then compares it to the currently installed version _(if necessary)_. If no update is available, then it stops and prints a message saying Fastfetch is already up to date. If there is a new version available, the script will create a temporary directory, download the latest `fastfetch-linux-amd64.tar.gz` archive, unpack it, and finally copy the contents into the `/opt/bin` and `opt/share` directories. 
+
+Currently, the script only works for the `x86_64` architecture, but I may add an option flag to download the ARM version in the future if people want it. The script automates the entire process of installing Fastfetch, but you will still need to manually add the `/opt/bin` directory as a path in your `.bashrc`.
 
 1. Log into your ZimaOS server via SSH as the `admin` user, enter the `/tmp` directory, and download the `fastfetch-install.sh` shell script.
 
@@ -110,7 +119,7 @@ I have finished writing and testing the bash script for installing and updating 
     ``` 
 
 > [!tip]
-> As a bonus, you can move the script into a more permanent location and use the [Cron module](https://github.com/chicohaager/cron) developed by @chicohaager to automate the script. This will keep the Fastfetch binary on your server updated with the latest version. If you are not sure where to keep your scripts, I prefer to keep mine in their own directory, `/opt/scripts`.
+> As a bonus, you can move the script into a more permanent location and use the [Cron module](https://github.com/chicohaager/cron) developed by [@chicohaager](https://github.com/chicohaager) to automate the script. This will keep the Fastfetch binary on your server updated with the latest version. If you are not sure where to keep your scripts, I prefer to keep mine in their own directory, `/opt/scripts`.
 
 #### Install Fastfetch Manually
 
