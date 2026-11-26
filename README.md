@@ -86,7 +86,33 @@ Now you should be able to open a new terminal window or tab and see the `fastfet
 
 ### ZimaOS
 
-#### Install Fastfetch
+#### Install Fastfetch with Script (`x86_64` only)
+
+I have finished writing and testing the bash script for installing and updating Fastfetch that I promised. The script checks with the GitHub API to find the version number for the latest version of Fastfetch, then compares it to the currently installed version _(if necessary)_. If no update is available, then it stops and prints a message saying Fastfetch is already up to date. If there is a new version available, the script will create a temporary directory, download the latest `fastfetch-linux-amd64.tar.gz` archive, unpack it, and finally copy the contents into the `/opt/bin` and `opt/share` directories. Currently, the script only works for the `x86_64` architecture, but I may add an option flag to download the ARM version in the future if people want it. The script automates the entire process of installing Fastfetch, but you will still need to manually add the `/opt/bin` directory as a path in your `.bashrc`.
+
+1. Log into your ZimaOS server via SSH as the `admin` user, enter the `/tmp` directory, and download the `fastfetch-install.sh` shell script.
+
+    ``` bash
+    cd /tmp
+    curl -fsSL https://raw.githubusercontent.com/benhaube/fastfetch-login-preset/refs/heads/master/fastfetch-install.sh -o fastfetch-install.sh
+    ``` 
+
+2. Make the `fastfetch-install.sh` shell script executable.
+
+    ``` bash
+    chmod +x fastfetch-install.sh
+    ```
+
+3. Run the `fastfetch-install.sh` shell script to install fastfetch into the `/opt/bin` and `/opt/share` directories.
+
+    ``` bash
+    sudo bash fastfetch-install.sh
+    ``` 
+
+> [!tip]
+> As a bonus, you can move the script into a more permanent location and use the [Cron module](https://github.com/chicohaager/cron) developed by @chicohaager to automate the script. This will keep the Fastfetch binary on your server updated with the latest version. If you are not sure where to keep your scripts, I prefer to keep mine in their own directory, `/opt/scripts`.
+
+#### Install Fastfetch Manually
 
 1. On another PC, download the latest release from the Fastfetch [GitHub repo](https://github.com/fastfetch-cli/fastfetch) for your ZimaOS system's architecture:
 
@@ -131,10 +157,10 @@ Now you should be able to open a new terminal window or tab and see the `fastfet
 
     ``` bash
     # For x86_64
-    sudo cp -r fastfetch-linux-amd64/usr /opt
+    sudo cp -a fastfetch-linux-amd64/usr /opt
 
     # For arm64
-    sudo cp -r fastfetch-linux-aarch64/usr /opt
+    sudo cp -a fastfetch-linux-aarch64/usr /opt
     ```
 
 6. Make sure the `/opt/bin` directory is listed as a binary path on your system _(it should be)_: 
