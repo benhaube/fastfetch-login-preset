@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="assets/icons/square-terminal.png" alt="Project logo">
+    <img src=".assets/icons/square-terminal.png" alt="Project logo">
 </p>
 
 <p>
