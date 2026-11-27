@@ -106,13 +106,7 @@ Currently, the script only works for the `x86_64` architecture, but I may add an
     curl -fsSL https://raw.githubusercontent.com/benhaube/fastfetch-login-preset/refs/heads/master/fastfetch-install.sh -o fastfetch-install.sh
     ``` 
 
-2. Make the `fastfetch-install.sh` shell script executable.
-
-    ``` bash
-    chmod +x fastfetch-install.sh
-    ```
-
-3. Run the `fastfetch-install.sh` shell script to install fastfetch into the `/opt/bin` and `/opt/share` directories.
+2. Run the `fastfetch-install.sh` shell script to install fastfetch into the `/opt/bin` and `/opt/share` directories.
 
     ``` bash
     sudo bash fastfetch-install.sh
