@@ -37,7 +37,7 @@ fi
 
 # Get currently installed version (if present)
 if [ -x "$BIN_PATH" ]; then
-  CURRENT_VER=$("$BIN_PATH" --version | awk '{print $2}')
+  CURRENT_VER=$("$BIN_PATH" --version-raw)
 else
   CURRENT_VER="none"
 fi
