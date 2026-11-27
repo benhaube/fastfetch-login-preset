@@ -1,8 +1,16 @@
 #!/bin/sh
 set -eu
+umask 022
 
+case "$(uname -m)" in
+  x86_64) ARCH="amd64" ;;
+  aarch64) ARCH="aarch64" ;;
+  *) echo "Error: unsupported architecture $(uname -m)" >&2; exit 1 ;;
+esac
+
+ASSET="fastfetch-linux-$ARCH.tar.gz"
 API_URL="https://api.github.com/repos/fastfetch-cli/fastfetch/releases/latest"
-DOWNLOAD_URL="https://github.com/fastfetch-cli/fastfetch/releases/latest/download/fastfetch-linux-amd64.tar.gz"
+DOWNLOAD_URL="https://github.com/fastfetch-cli/fastfetch/releases/latest/download/fastfetch-linux-$ARCH.tar.gz"
 BIN_PATH="/opt/bin/fastfetch"
 
 # Fetch latest release tag without requiring jq
